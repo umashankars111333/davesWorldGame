@@ -1,0 +1,19 @@
+body {
+  background-image: url(../assets/images/pageBackground.jpg);
+}
+
+#canvasSpace {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#gameScreen {
+  border: 8px solid red;
+  background-color: black;
+}
+
+img,
+audio {
+  display: none;
+}
