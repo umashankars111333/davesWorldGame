@@ -12,6 +12,7 @@ app.get("/getData", function (req, res) {
   res.send(JSON.stringify(jsonData));
 });
 
-app.listen(3000, function () {
+const port = process.env.port || 5000;
+app.listen(port, function () {
   console.log("Listening on port 3000");
 });
